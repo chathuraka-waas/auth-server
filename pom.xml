@@ -7,7 +7,7 @@
     <groupId>com.example</groupId>
     <artifactId>auth-server</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <!--<packaging>war</packaging> -->
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -19,12 +19,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <exclusions>
+            <!-- <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-tomcat</artifactId>
                 </exclusion>
-            </exclusions>
+            </exclusions> -->
         </dependency>
 
        <!-- Spring Security dependencies -->
@@ -44,12 +44,12 @@
         </dependency>
 
         <!-- Java EE dependencies -->
-        <dependency>
+        <!--<dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
+            <version>3.0.1</version>
             <scope>provided</scope>
-        </dependency>
+        </dependency> -->
 
     </dependencies>
 
